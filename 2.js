@@ -1,7 +1,7 @@
 "use strict";
 
 function greetingUser(name) {
-   alert(`Привет ${name}`);
+   console.log(`Привет ${name}!!!`);
 }
 
 greetingUser(prompt("Введите своё имя"));

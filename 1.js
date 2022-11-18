@@ -1,7 +1,7 @@
 "use strict";
 
-const temperature = Number.parseInt(prompt("Введите температуру в градусах цельсия"));
+const temperature = +prompt("Введите температуру в градусах цельсия");
 
-const temperatureFahrenheit = Number((9 / 5) * temperature + 32).toFixed(1);
+const temperatureFahrenheit = (9 / 5) * temperature + 32;
 
-alert(`Цельсий: ${temperature}, Фаренгейт: ${temperatureFahrenheit}`);
+alert(`Цельсий: ${temperature}, Фаренгейт: ${temperatureFahrenheit.toFixed(1)}`);
